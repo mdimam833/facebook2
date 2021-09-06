@@ -1,0 +1,170 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* gobal css star */
+.w-50 {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+.line {
+    border-top: 1px solid gray;
+    margin: 15px 0 ;
+}
+
+
+
+/* gobal css end */
+
+
+.middle-are {
+    height: 100vh;
+    background: #f0f2f5;
+}
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+.fb img {
+    width: 290px;
+    margin-top: 180px;
+    margin-left: -30px;
+}
+.fb h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 23px;
+    margin-top: -10px;
+    color: #1c1e21;
+}
+.form {
+    width: 80%;
+    margin: auto;
+    background: #ffffff;
+    margin-top: 150px;
+    padding: 22px 15px;
+    border-radius: 8px;
+    box-shadow: 4px 2px 9px;
+    box-sizing: border-box;
+}
+form {
+    text-align: center;
+}
+.form form input {
+	width: 100%;
+	padding: 12px 10px;
+	display: block;
+	margin-bottom: 12px;
+	font-size: 16px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid gray;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.5s;
+}
+.form form input[type='text']:focus,
+.form form input[type='password']:focus {
+    border: 1px solid blue;
+}
+.form form input[type="submit"] {
+    background: #1877f2;
+    color: #FFF;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.form form input[type="submit"]:hover {
+    background: #084492 ;
+}
+.form form a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color:  #1877f2;
+    transition: 0.5s;
+}
+.form form a:hover {
+    text-decoration: underline;
+}
+.form form .create {
+    background: green;
+    color: #FFF;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    transition: 0.5s;
+}
+.form form .create:hover {
+    text-decoration: none;
+    background: rgb(8, 173, 8);
+}
+.fd-page span {
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    color: grey;
+}
+.fd-page span a {
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.fd-page span a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    padding-top: 25px ;
+}
+footer ul {
+    list-style: none;    
+}
+footer ul li {
+    display: inline-block;
+    color: grey;
+    margin-left: 5px;
+}
+footer ul li a {
+    color: grey;
+    text-decoration: none;
+    font-size: 13px;
+    transition: 0.5s;
+}
+footer ul li a:hover {
+    text-decoration: underline;
+}
+footer .fb-luag ul li:last-child {
+    border: 1px solid grey;
+    padding: 0 5px;
+}
+footer .fb-luag ul li:last-child a {
+    color: black;
+    font-weight: bolder;
+    font-size: 15px;
+}
+footer .fb-luag ul li:last-child a:hover {
+    text-decoration: none;
+}
+footer .link {
+    line-height: 24px;
+}
+footer .link ul li {
+    margin-right: 20px;
+}
+footer .link ul li a {
+    font-size: 15px;
+}
+footer .fb-copy {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+footer .fb-copy p {
+    font-size: 12px;
+    color: grey;
+}

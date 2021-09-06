@@ -1,0 +1,51 @@
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .w-50 {
+        width: 100%;
+    }
+    .fb img {
+        width: 290px;
+        margin-top: 10px;
+         margin-left: 0px; 
+    }
+    .fb h3 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+        margin-top: -13px;
+        color: #1c1e21;
+       
+    }
+    .form {
+        width: 80%;
+        margin: auto;
+        background: #ffffff;
+        margin-top: 162px;
+        padding: 16px 12px;
+        border-radius: 8px;
+        box-shadow: 4px 2px 9px;
+        box-sizing: border-box;
+    }
+    .form form input {
+        padding: 8px 5px;
+        font-size: 12px;
+    }
+    .fd-page span {
+        margin-top: 31px;
+        font-size: 12px;
+    }
+    footer ul {
+        line-height: 20px;
+    }
+    footer ul li {
+        margin-left: 12px;
+    }
+    footer .link ul li {
+        margin-right: -4px;
+    }
+    footer .fb-copy p {
+        text-align: center;
+    }
+    .fb {
+        text-align: center;
+    }
+}
